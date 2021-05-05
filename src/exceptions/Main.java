@@ -6,8 +6,13 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
         NemIdAuthorizer aut = new NemIdAuthorizer();
+        User user = new User(null, null);
 
-        System.out.println(aut.isValidInput("012345678", "qwerty"));
-        System.out.println(aut.isUser("012345678", "qwerty"));
+        user.logCpr();
+        user.logPassword();
+
+        System.out.println(aut.isValidInput(user.getCpr(), user.getPassword()));
+
+        System.out.println(aut.isUser(user.getCpr(), user.getPassword()));
     }
 }

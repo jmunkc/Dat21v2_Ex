@@ -74,7 +74,6 @@ public class NemIdAuthorizer {
     }
 
     public boolean isValidPassword(String cpr, String password) throws InvalidPasswordException {
-        // wrap in try - catch ?
 
         boolean valid = false;
 

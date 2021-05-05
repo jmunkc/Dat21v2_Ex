@@ -1,5 +1,7 @@
 package exceptions;
 
+import java.util.Scanner;
+
 public class User {
 
     private String cpr, password;
@@ -24,5 +26,17 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    public void logCpr() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please type your CPR number");
+        setCpr(sc.nextLine());
+    }
+
+    public void logPassword(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please type your password");
+        setPassword(sc.nextLine());
     }
 }
