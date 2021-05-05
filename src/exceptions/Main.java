@@ -1,13 +1,13 @@
 package exceptions;
 
+import java.io.FileNotFoundException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         NemIdAuthorizer aut = new NemIdAuthorizer();
 
-        Login.logCpr();
-        Login.logPassword();
-
-        aut.isValidInput(Login.cpr, Login.password);
+        System.out.println(aut.isValidInput("012345678", "qwerty"));
+        System.out.println(aut.isUser("012345678", "qwerty"));
     }
 }
