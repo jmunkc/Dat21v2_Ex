@@ -118,9 +118,14 @@ public class NemIdAuthorizer {
 
         else if (true) {
             for (int i = 126; i < 256; i++) {
-                if (passwordCheck.indexOf((char) i) > 0) {
+                if (passwordCheck.indexOf((char)i) > 0) {
                     throw new InvalidPasswordException(7);
                 }
+            }
+            if(passwordCheck.indexOf((char)60) > 0 || passwordCheck.indexOf((char)62) > 0
+                || passwordCheck.indexOf((char)91) > 0 || passwordCheck.indexOf((char)93) > 0
+                || passwordCheck.indexOf((char)124) > 0 ) {
+                throw new InvalidPasswordException(7);
             }
         }
 
