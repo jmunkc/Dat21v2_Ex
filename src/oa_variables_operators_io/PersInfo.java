@@ -1,4 +1,4 @@
-package OA_variables_operators_io;
+package oa_variables_operators_io;
 
 import java.util.Scanner;
 

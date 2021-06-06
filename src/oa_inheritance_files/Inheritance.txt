@@ -1,0 +1,3 @@
+In 250 words or less - describe the concept and mechanisms used in inheritance
+
+Inheritance

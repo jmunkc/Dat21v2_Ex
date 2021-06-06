@@ -1,4 +1,4 @@
-package OA_methods_loops;
+package oa_methods_loops;
 
 public class MulitPrint {
 

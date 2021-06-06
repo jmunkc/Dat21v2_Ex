@@ -1,4 +1,4 @@
-package OA_oop_arraylist;
+package oa_oop_arraylist;
 
 public class Main {
 

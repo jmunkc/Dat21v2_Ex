@@ -1,6 +1,5 @@
-package OA_oop_arraylist;
+package oa_oop_arraylist;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
