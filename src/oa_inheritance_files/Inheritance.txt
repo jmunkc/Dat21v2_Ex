@@ -1,3 +1,15 @@
 In 250 words or less - describe the concept and mechanisms used in inheritance
 
 Inheritance
+
+Inheritance is one of the four pillars of object-oriented programming. It allows for one or more classes to inherit
+the state and behaviour of another class by extending its attributes and methods. These classes are respectively
+referred to as child- or sub-class and parent- or super-class. A sub-class is extended by adding the keyword extends
+and then the super-class name, to its own class name. Fields and methods of the super-class can be reached from a
+sub-class by invoking the super keyword. Inheritance provides the ability to create a multitude of hierarchically
+ordered sub-classes with shared functionality but with the possibility of differentiated behaviour implemented, in the
+sub-class, by adding further attributes, methods or overriding methods inherited by the super-class. Java has an inbuilt
+super-class called "Object" automatically extended by all objects. "Object" provides commonly used methods like equals()
+and toString(). Inheritance also allows for the utilization of polymorphism in programming i.e., by creating methods
+that takes a super-class as parameter or return type, said method is the applicable to all inheriting sub-classes.
+
