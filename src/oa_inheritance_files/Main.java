@@ -17,16 +17,19 @@ public class Main {
         Antibody antibody = new Antibody();
         System.out.println();
 
+        pcr.calcAnswerTime();
         pcr.runTest();
-        System.out.println(pcr.toString());
+        System.out.println(pcr);
         System.out.println();
 
+        antigen.calcAnswerTime();
         antigen.runTest();
-        System.out.println(antigen.toString());
+        System.out.println(antigen);
         System.out.println();
 
+        antibody.calcAnswerTime();
         antibody.runTest();
-        System.out.println(antibody.toString());
+        System.out.println(antibody);
 
     }
 }
